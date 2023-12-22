@@ -20,10 +20,10 @@ public class BubbleSort {
     }
 
     private static void bubbleSort(int[] numbers) {
-        boolean swappedSomthing = true;
+        boolean swappedSomething = true;
 
-        while (swappedSomthing) {
-            swappedSomthing = false;
+        while (swappedSomething) {
+            swappedSomething = false;
             for (int i = 0; i < numbers.length - 1; i++) {
                 if (numbers[i] > numbers[i + 1]) {
                     swappedSomthing = true;
